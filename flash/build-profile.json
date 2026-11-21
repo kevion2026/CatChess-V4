@@ -1,0 +1,31 @@
+{
+  "source": "v4flash_main.cpp",
+  "flags": [
+    "-O3",
+    "-mavx2",
+    "-mfma",
+    "-static",
+    "-s",
+    "-std=c++17",
+    "-DUSE_GEO",
+    "-DCLOCK_THROTTLE",
+    "-DCATCHESS_V3NEXT3",
+    "-DCATCHESS_V4FLASH",
+    "-DV3_LINES",
+    "-DV3_IMPROVED_SEARCH",
+    "-DV3_ROOT_LMR",
+    "-DV3_QCHECKS",
+    "-DV3_CONTEMPT=24",
+    "-DV3_LAZY_ACC",
+    "-DV3_INT_DENSE",
+    "-DV3_LAZY_SEE",
+    "-DV3_DEEP_ROOT",
+    "-DV3_PARTIAL_ROOT",
+    "-DV3_MATE_PROBE",
+    "-DV4_FAST_CHECK",
+    "-DFLASH2_TT_BITS=18",
+    "-DV4FLASH_FAST",
+    "-DV4_SPARSE_DENSE"
+  ],
+  "sha256": "a097155125f21743515845cd13a7f7172e11ac30bdfca22b1a2b37ef820b68c2"
+}
